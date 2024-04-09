@@ -12,7 +12,8 @@
  Las devDependencies son paquetes que solo se necesitan para el desarrollo y las pruebas locales.
 
  4. Creando las carpetas src y scss, mas el archivo app.scss
- ![Hola](/screnshoot/carpetaSrc.png)
+  
+ ![](/screnshoot/carpetaSrc.png)
 
  5. Enlazando la sass con css
 
