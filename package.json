@@ -1,0 +1,14 @@
+{
+  "name": "festival-music",
+  "version": "1.0.0",
+  "description": "Pagina de FestivalMusic",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "author": "JChigneDev",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.74.1"
+  }
+}
