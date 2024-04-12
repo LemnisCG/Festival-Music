@@ -49,7 +49,7 @@
 
   Watch escucha los cambios que sucedan en un archivo y si sucede el cambio se ejecuta la acción
 
-  Para añadir watch en el script tiene que ir a tu package.json y buscar el script y la tarea que añadiste en tu script un ejemplo seria este
+  Para añadir watch en el script tiene que ir a tu package.json y buscar el script y en la tarea que añadiste en tu script añadir el watch. Un ejemplo seria este
   `"sass": "sass --watch src/scss:build/css"`
 
 
