@@ -38,4 +38,11 @@
      
     Esto iniciará el proceso de compilación de tus archivos Sass según las configuraciones especificadas en el script.
 
+  ### Enlazar index.html con sass 
+  Ya creando un script en package.json es hora de enlazar el sass con tu index.html
+  - Crear tu index.html
+  - Llamar al elemento o etiqueta
+  `<link rel="stylesheet" href="build/css/app.css">`
+  Ahi estamos llamando a la carpeta build/css/app.cs que creamos en el script  
+
 
