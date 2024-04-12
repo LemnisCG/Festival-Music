@@ -43,6 +43,13 @@
   - Crear tu index.html
   - Llamar al elemento o etiqueta
   `<link rel="stylesheet" href="build/css/app.css">`
-  Ahi estamos llamando a la carpeta build/css/app.cs que creamos en el script  
+  Ahi estamos llamando a la carpeta build/css/app.cs que creamos en el script 
+
+  ###  Añadiendo watch en script
+
+  Watch escucha los cambios que sucedan en un archivo y si sucede el cambio se ejecuta la acción
+
+  Para añadir watch en el script tiene que ir a tu package.json y buscar el script y la tarea que añadiste en tu script un ejemplo seria este
+  `"sass": "sass --watch src/scss:build/css"`
 
 
