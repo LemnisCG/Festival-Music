@@ -6,6 +6,10 @@
   "scripts": {
     "sass": "sass --watch src/scss:build/css"
   },
+  "keywords": [
+    "sass",
+    "gulp"
+  ],
   "author": "JChigneDev",
   "license": "ISC",
   "devDependencies": {
