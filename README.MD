@@ -61,4 +61,5 @@ en el desarrollo de aplicacione
 ### Creando archivo gulpfile.js para automatizar tareas con gulp 
 - Creamos el archivo "gulpgile.js" en la carpeta Festival-Music.
 
-
+### Instalando dependencias de gulp
+- `npm i --save-dev gulp-sass`
