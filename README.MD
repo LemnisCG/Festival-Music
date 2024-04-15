@@ -52,4 +52,13 @@
   Para añadir watch en el script tiene que ir a tu package.json y buscar el script y en la tarea que añadiste en tu script añadir el watch. Un ejemplo seria este
   `"sass": "sass --watch src/scss:build/css"`
 
+4.Instalando gulp
+Gulp es una herramienta que automatiza tareas comunes y repetitivas 
+en el desarrollo de aplicacione
+ ### Instalando gulp
+
+- Con `npm install --save-dev gulp` instalamos la dependencia de gulp en Devdependencies.
+### Creando archivo gulpfile.js para automatizar tareas con gulp 
+- Creamos el archivo "gulpgile.js" en la carpeta Festival-Music.
+
 
