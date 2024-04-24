@@ -172,7 +172,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-appearance: button;
+  -webkit-appearance: button;
 }
 
 /**
@@ -255,7 +255,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  appearance: textfield; /* 1 */
+  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -331,4 +331,24 @@ p {
   max-width: 120rem;
   width: 95%;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0 0 auto 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
 }
