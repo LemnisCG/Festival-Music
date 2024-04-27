@@ -1,1 +1,18 @@
-@forward 'header';
+@use 'base/variable' as v;
+
+header{
+    background-color: v.$verde;
+    a{
+        color: v.$blanco;
+    }
+
+    .contenido-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.navegacion-nombres{
+    font-size: 2.4rem;
+}
