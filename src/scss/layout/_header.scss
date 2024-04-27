@@ -1,18 +1,32 @@
 @use 'base/variable' as v;
-
+@use 'base/mixing' as m;
 header{
     background-color: v.$verde;
-    a{
-        color: v.$blanco;
-    }
-
+    
     .contenido-header{
+        padding: 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+
+    }
+
+    h1{
+        color: v.$blanco;
+        margin: 0;
     }
 }
 
-.navegacion-nombres{
-    font-size: 2.4rem;
+.navegacion-principal{
+    display: flex;
+    gap: 2rem;
+    a{
+        color: v.$blanco;
+        font-size: 2.4rem;
+
+        &:hover{
+            color: v.$amarillo;
+        }
+    }
 }
